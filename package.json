@@ -1,0 +1,13 @@
+{
+  "name": "pulsecam",
+  "version": "0.1.0",
+  "description": "Measure heart rate from a webcam in the browser using remote photoplethysmography (rPPG).",
+  "main": "src/pulsecam.js",
+  "files": ["src/pulsecam.js", "README.md", "LICENSE"],
+  "keywords": ["heart-rate", "rppg", "photoplethysmography", "webcam", "pulse", "bpm", "javascript"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/USERNAME/pulsecam.git" },
+  "scripts": {
+    "test": "node test/algorithm.test.js"
+  }
+}
