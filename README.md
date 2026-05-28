@@ -2,7 +2,7 @@
 
 Measure heart rate from a webcam, entirely in the browser, using **remote photoplethysmography (rPPG)**. No server, no dependencies, no data leaving the device.
 
-**[▶ Live demo](https://USERNAME.github.io/pulsecam/)** *(replace `USERNAME` after publishing to GitHub Pages)*
+**[▶ Live demo](https://qurihara.github.io/pulsecam/)**
 
 ## How it works
 
