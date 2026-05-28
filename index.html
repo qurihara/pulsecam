@@ -18,8 +18,9 @@
   .wrap { display:flex; gap:24px; flex-wrap:wrap; justify-content:center; width:100%; max-width:880px; }
   .card { background:var(--card); border:1px solid #262a38; border-radius:16px; padding:18px; }
   .videobox { position:relative; width:360px; max-width:90vw; }
-  video, canvas.overlay { width:100%; border-radius:12px; display:block; background:#000; transform:scaleX(-1); }
-  canvas.overlay { position:absolute; inset:0; }
+  video, canvas.overlay { width:100%; border-radius:12px; display:block; transform:scaleX(-1); }
+  video { background:#000; }
+  canvas.overlay { position:absolute; inset:0; background:transparent; }
   .panel { width:380px; max-width:90vw; display:flex; flex-direction:column; gap:16px; }
   .bpm { font-size:4.2rem; font-weight:700; line-height:1; }
   .bpm small { font-size:1rem; color:var(--muted); font-weight:400; }
